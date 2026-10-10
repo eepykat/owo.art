@@ -1,0 +1,374 @@
+/* CSS Document */
+* {
+    box-sizing: border-box;
+}
+html, body {
+	margin: 0;
+    padding: 0;
+	font-family: 'Wellfleet', monospace;
+    font-size: 1em;
+    background-image: url("https://content.owo.art/assets/backgroundStars.gif");
+    color: #FFFF;
+    height: 100%;
+}
+#container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center-text {
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* -------------------------------------------------
+ *
+ *
+ * Landing on Home Page
+ *
+ *
+ - --------------------------------------------------*/
+.landing {
+    margin-top:80px;
+    padding: 200px;
+    text-align: center;
+    color: #FFFF;
+    font-size: 1em;
+    line-height: 1.2em;
+}
+.landing h1 {
+    font-size: 6em;
+    font-variant: small-caps;
+}
+.landing p {
+    font-size: 1.5em;
+}
+#landing-images {
+    background-image: url("https://content.owo.art/assets/spaceCat.png"), url("https://content.owo.art/assets/earth.png");
+    background-repeat: no-repeat;
+    background-position: left 200px,right 50px;
+}
+/* -------------------------------------------------
+ *
+ *
+ * NAVBAR
+ *
+ *
+ - --------------------------------------------------*/
+#navbar {
+    color: #FFFFFF;
+    width: 960px;
+	margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 35px;
+    padding-top: 10px;
+}
+#navbar img {
+    font-size: medium;
+}
+
+#navbar h1 {
+    margin-bottom: 50px;
+    margin-top: -76px;
+    margin-left: 120px;
+    font-size: 1.8em;
+}
+
+#navbar ul  {
+    padding-top: 0px;
+    padding-right: 0px;
+    list-style-type: none;
+    text-align: right;
+    margin-top: -80px;
+    margin-right: 50px;
+}
+
+#navbar ul li {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 1.6em;
+}
+a:link, a:visited {
+    color:#DDD9D9;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #F2CA80;
+    text-decoration: none;
+}
+
+li.active a {
+    color: #F2CA80;
+}
+#navbar h1 {
+font-variant: small-caps;
+}
+/* -------------------------------------------------
+ *
+ *
+ * FOOTER
+ *
+ *
+ - --------------------------------------------------*/
+footer {
+    padding:20px;
+    margin:20px;
+    color: #DCD3DE;
+    text-align: center;
+    position: relative;
+    bottom:0px;
+    width: 960px;
+}
+
+footer ul li {
+    font-size: 1.2em;
+}
+footer ul  {
+    padding-right: 0px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+/* -------------------------------------------------
+ *
+ *
+ * The Grid
+ *
+ *
+ - --------------------------------------------------*/
+
+.grid {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    width: 960px;
+}
+
+.grid-item {
+    flex-basis: 28%;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+}
+
+.grid-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #DDD9D9;
+    -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.40);
+    box-shadow: 0px 0px 10px #000000;
+}
+
+.shopItemImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #3B3A3A;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.40);
+    -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.40);
+}
+/* --------------------------
+ *
+ *
+ * BUTTON STYLING
+ *
+ *
+ - ----------------------------*/
+.btn {
+    color: #FFFFFF;
+    font-size: 1.5em;
+    border: none;
+    cursor: pointer;
+    border-radius: 125px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.cart {
+	background-color: #191633;
+}
+.learnMore {
+    background-color: #F2CA80;
+    color: #FFFFFF;
+    font-family: 'Peralta', serif;
+    margin:25px;
+}
+.cart:hover {
+	background-color: #27234A;
+}
+
+/* --------------------------
+ *
+ *
+ * Title Text
+ *
+ *
+ - ----------------------------*/
+
+#title-text {
+    margin-top: 0px;
+    padding-top: 30px;
+    text-align: center;
+    border-bottom: 5px solid #FFFFFF;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#title-text h1 {
+    color: #FFFFFF;
+    font-size: 4em;
+}
+#title-text p {
+    color: #FFFFFF;
+    font-size: 1.5em;
+    margin-top: -35px;
+}
+
+/* --------------------------
+ *
+ *
+ * Bottom Disclaimer Box
+ *
+ *
+-----------------------------*/
+#disclaimerBox {
+    color: #FFFFFF;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right:20px;
+    background-color: #282533;
+    -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.40);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.40);
+    border: 5px solid rgba(242,202,128,1.00);
+}
+#disclaimerBox h1 {
+color: #FFFFFF;
+font-size: 2em;
+margin-left: 30px;
+}
+#disclaimerBox p {
+color: #FFFFFF;
+font-size: 1em;
+margin-left: 30px;
+}
+
+/* -------------------------------------------------
+ *
+ *
+ * POP UP WINDOW ON SHOP PAGE
+ *
+ *
+---------------------------------------------------*/
+.catbox {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.4s;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+    padding-top: 125px;
+}
+.catbox:target {
+    visibility: visible;
+    opacity: 1;
+}
+.box-close {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    text-decoration: none;
+    font-size: 60px;
+}
+.catboxContent {
+    position: absolute;
+    background: #3B3A3A;
+    width: 960px;
+    border: 5px solid #DCD3DE;
+    border-radius: 20px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.catboxContent p {
+    font-size: 1.2en;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 1.2em;
+    color: #FFFFFF;
+}
+.catboxContent img {
+    border-radius: 100px;
+    -webkit-box-shadow: 0px 0px 10px #000000;
+    box-shadow: 0px 0px 10px #000000;
+}
+.catboxContent h1 {
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 35px;
+    color: #FFFFFF;
+    font-size: 3em;
+}
+.catboxContent h2 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 2em;
+}
+
+
+/* -------------------------------------------------
+ *
+ *
+ * IMAGE HOVERING EFFECT
+ *
+ *
+ - --------------------------------------------------*/
+.imageTransistion {
+    position: relative;
+}
+.imageTransistion:hover .imageOverlay {
+    opacity: 1;
+}
+.imageHover {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.imageInside {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.imageOverlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+}
